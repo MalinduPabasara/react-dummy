@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Post from './form/getForm';
+import PostForm from "./form/postForm";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+    return (
+        <div className="App">
+            {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +19,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
+      </header>*/}
+            <PostForm></PostForm>
+
+        </div>
+    );
 }
 
 export default App;
