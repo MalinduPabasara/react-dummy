@@ -1,0 +1,53 @@
+.con-a {
+    margin: 20px;
+}
+
+.main {
+    position: relative;
+    top: 100px;
+    background: linear-gradient(to left, #61b9ee, #6ad5e1);
+    margin: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 440px;
+    height: 330px;
+}
+
+.lbl {
+    margin: 20px;
+    font-family: Candara;
+    color: black;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #7272de;
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.fm {
+    margin-top: 70px;
+}
+
+.inp, .inp-t, .inp-b {
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    width: 200px;
+}
+
+.inp-t, .inp-b {
+    position: relative;
+    left: 10px;
+}
+
+.title {
+    font-family: "Candara";
+
+}

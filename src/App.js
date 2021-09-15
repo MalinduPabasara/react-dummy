@@ -20,8 +20,8 @@ function App() {
           Learn React
         </a>
       </header>*/}
-            <PostForm></PostForm>
-
+            {/*<PostForm></PostForm>*/}
+            <Post></Post>
         </div>
     );
 }
